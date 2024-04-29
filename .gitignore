@@ -1,0 +1,40 @@
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+!devops/deployment/**/*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+*.iml
+
+# idea IDE releaed files
+**/.idea/
+
+**/java
+
+!**/src/main/java
+
+**/target/
+**/bin/pom.xml
+bin/pom.xml
+**/src/test/**/output/
+**/src/test/**/resources/output/
+**/output
+**/logs/
+!**/src/main/java
+
+/\.project
+
